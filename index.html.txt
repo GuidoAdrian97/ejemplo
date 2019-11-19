@@ -1,0 +1,175 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">
+    <title>Bootstrap desde cero</title>
+	<!-- vinculación con archivos Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+	<!-- vinculación con archivo style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>  
+<body>
+<header>
+
+<div class="container"> 
+<!-- barra de navegacion -->
+<nav class="navbar navbar-expand-lg navbar navbar-light">
+<a class="navbar-brand" href="#">
+  <img src="https://luisforgiariniblog.com/wp-content/uploads/2017/06/logo-luisforgiariniblog-amp.png"alt=" " class="img-responsive">
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active" class="dropdown open">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" class="dropdown open">
+        <a class="nav-link" href="#blog">Blog</a>
+      </li>
+      <li class="nav-item" class="dropdown open">
+        <a class="nav-link" href="#info">Acerca de</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Búesqueda</button>
+    </form>
+  </div>
+</nav>
+	
+	</div>
+</header>
+<!-- llamado a la acción -->
+<section id="call-action">
+<div class="container"> 
+<div class="row">
+<div class="col-md-12">
+<div class="card text-center">
+  <div class="card-body">
+    <h1>CREAR Y GESTIONAR UN BLOG PROFESIONAL FACILMENTE ES POSIBLE</h1>
+    <p>APRENDE A CREAR Y GESTIONAR UN BLOG DE FORMA SENCILLA CON ESTE EBOOK. POR QUE LA VIDA ES DEMASIADO COMPLICADA PARA SUMAR PROBLEMAS.</p>
+    <a href="#" class="btn btn-danger">Descarga gratis el Ebook</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- sección blog -->
+<section id="blog">
+<h2 class="text-center">ÚLTIMOS ARTÍCULOS PUBLICADOS</h2>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="card">
+  <img class="card-img-top" src="https://luisforgiariniblog.com/wp-content/uploads/2018/04/Gestionar-RRHH-de-tu-empresa-online-y-gratis-400x250.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">COMO GESTIONAR LOS RRHH DE TU EMPRESA GRATIS ONLINE CON FACTORIAL</h5>
+    <p class="card-text">Hace un par de días me llegue al departamento de RRHH donde trabajo, necesitaba algunos datos para un presupuesto. Tuve que esperar un buen rato hasta que organizaron los datos que necesitaba, eso me hizo pensar que en el siglo que estamos debieran existir...</p>
+    <a href="#" class="btn btn-primary">Leer Más</a>
+  </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="card">
+  <img class="card-img-top" src="https://luisforgiariniblog.com/wp-content/uploads/2018/01/portada-400x250.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">EJEMPLOS DE PAGINAS WEB EN HTML Y CSS + TUTORIAL DE EDICION</h5>
+    <p class="card-text">Este post que se me dio por titular "Ejemplos de paginas web en html y css + Tutorial de edición", constará de dos partes. En una de ellas te daré acceso a 14 plaginas web en html y css listas para usar. La otra...</p>
+    <a href="#" class="btn btn-primary">Leer Más</a>
+  </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="card">
+  <img class="card-img-top" src="https://luisforgiariniblog.com/wp-content/uploads/2018/03/unfollow-today-400x250.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">DESCUBRE QUIEN DEJO DE SEGUIRTE EN TWITTER E INSTAGRAM CON UNFOLLOW TODAY</h5>
+    <p class="card-text">Creo que todos estaremos de acuerdo al decir que una cuenta en Twitter o Instagram, con una gran diferencia entre gente siguiendo y seguidores, no se ve nada bien. Si estas siguiendo 5 mil cuentas y apenas 500 te siguen, da a entender que no aportas valor a la...</p>
+    <a href="#" class="btn btn-primary">Leer Más</a>
+  </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="card">
+  <img class="card-img-top" src="https://luisforgiariniblog.com/wp-content/uploads/2018/03/Ideas-de-negocios-en-auge-para-emprender-este-a%C3%B1o-400x250.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">28 IDEAS DE NEGOCIOS EN AUGE PARA EMPRENDER ESTE 2018</h5>
+    <p class="card-text">¿El año ya esta en pleno funcionamiento y aun no haz emprendido tu nuevo negocio?. ¿Acaso no tienes idea que nicho encarar?. Como se que hay mucha gente como tu, he preparado este post con 28 de los negocios en auge para emprender en este año. Verás que el listado que...</p>
+    <a href="#" class="btn btn-primary">Leer Más</a>
+  </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="card">
+  <img class="card-img-top" src="https://luisforgiariniblog.com/wp-content/uploads/2018/01/portada-1-400x250.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">TIPS SEO PARA DUPLICAR TU TRÁFICO EN 2018</h5>
+    <p class="card-text">Todo el mundo fija objetivos cada comienzo de año. Entre la comunidad bloguer/webmaster es muy común que uno de esos objetivos sea aumentar el tráfico web. De eso estuve hablando con el amigo de...</p>
+    <a href="#" class="btn btn-primary">Leer Más</a>
+  </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+<div class="card">
+  <img class="card-img-top" src="https://luisforgiariniblog.com/wp-content/uploads/2018/03/SEO-para-dummies-conceptos-b%C3%A1sicos-400x250.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">GUÍA SEO PARA DUMMIES – CONCEPTOS BÁSICOS</h5>
+    <p class="card-text">Son millones las líneas que hay dedicadas en internet para hablar del SEO. Es tanta la información que un principiante puede llegar a sentirse mareado, y termina por pensar que el SEO es algo para expertos, no apto para él. Dado que en este blog generalmente abordo...</p>
+    <a href="#" class="btn btn-primary">Leer Más</a>
+  </div>
+  </div>
+</div>
+</div>
+<!-- paginacion -->
+<div class="row">
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" tabindex="-1">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Siguiente</a>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+</section>
+<!-- información sobre el autor -->
+<section id="info">
+<h2 class="text-center">UN POCO SOBRE MI</h2>
+<div class="container">
+
+<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+		<img class="card-img" src="https://luisforgiariniblog.com/wp-content/uploads/2016/07/14457.jpg" alt="...">
+		</div> 
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+		<p>Hola, es un gusto que hayas llegado a mi blog. Para contarte algo brevemente de mi puedo decirte que soy Ingeniero Civil, trabajo por mi cuenta actualmente, algunos de mis tiempos libres los dedico a llevar adelante esta pasio que tengo por el blogging. La verdad no me considero un experto en los que escribo (es más no me considero experto en la ingenieria y eso que tengo mi titulo.. jaja), solo escribo sobre lo que aprendo en el día a día. Espero que sea de utilidad la informacion que encuentres, y de ser asi compartelo para ayudarme a crecer en este medio.</p>
+		</div>
+		
+	</div>	
+	
+</div>
+
+</section>
+    <!-- footer -->
+    <footer id="pie">
+      <div class="container">
+        <div class="row">
+            <p>Copyright &copy; 2018 Creado por <a href="https://luisforgiariniblog.com/">LuisForgiariniBlog.</a></p>
+          </div>
+        </div>
+    </footer>
+	
+</body>
+</html>
